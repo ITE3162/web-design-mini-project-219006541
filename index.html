@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your website title goes here</title>
+    <title>My website</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
 </head>
 <body>
-    <!-- Add your content here: use semantic tags where possible -->
+    <header>
+        <nav class="navbar">
+            <!-- <div class="max-width"></div> -->
+            <div class="logo"><a href="#">portfo <span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#portfolio">gallery</a></li>
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#Contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <section class="home" id="home">
+            <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is </div>
+                <div class="text-2">Muhorakeye Alice</div>
+                <div class="text-3">And am <span>a web developer</span></div>
+
+            </div>
+        </div>
+        </section>
+        <!--About section-->
+        <section id="About">
+            <h2 class="headings">ABOUT ME</h2>
+            <div id="pic">
+            <img src="./images/img2.jpg" alt="">
+            <div id="intro">
+                <h3>Alice Muhorakeye</h3>
+                <p>I am front-end developer ,
+                    i can provide clean code and pixel perfect design.
+                    I also make the website more and more interactive with the animations.
+                    A responsive design makes your websites accessible to all users regardless
+                    of their devices.
+                </p>
+            </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h1 class="heading">portfolio</h1>
+            <div class="gallery">
+                <img src="./images/img3.jpg" alt="">
+                <img src="./images/img4.jpg" alt="">
+                 <img src="./images/img5.jpg" alt="">
+                <img src="./images/img6.jpg" alt="">
+                <img src="./images/img7.jpg" alt="">
+                <img src="./images/img8.jpg" alt="">
+            </div>
+        </section>
+        <section id="services">
+            <h1 class="headings">Services</h1>
+            <div class="row">
+                <div class="box">
+                    <h1 class="headings">website <br> design</h1>
+                    <p>My services  imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.
+                         and i have experience of 5years in the field, ScienceSoft delivers highly available, 
+                         functional and visually engaging web products and both platform-based and custom web solutions for enterprises.</p>
+                </div>
+                <div class="box">
+                    <h1 class="headings">Ux/U <br>design</h1>
+                    <p>My services  imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.
+                        and i have experience of 5years in the field, ScienceSoft delivers highly available, 
+                        functional and visually engaging web products and both platform-based and custom web solutions for enterprises.</p>
+                    </div>
+                    <div class="box">
+                        <h1 class="headings">Digital <br> Marketing </h1>
+                        <p>My services  imply designing, building, integrating, scaling and maintaining software that work via intranet or internet.
+                            and i have experience of 5years in the field, ScienceSoft delivers highly available, 
+                            functional and visually engaging web products and both platform-based and custom web solutions for enterprises.</p>
+                        </div>
+                    </div>
+        </section>
+        <section id="Contact">
+            <h1 class="headings">Contact</h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="enter your name">
+                <input type="email" name="email" class="input" placeholder="enter your email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="enter your message"></textarea>
+                <input type="submit" value="Send" id="send">
+
+            </form>
+        </section>
+    </header>
+    
 </body>
 </html>
